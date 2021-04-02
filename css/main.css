@@ -1,0 +1,105 @@
+* {
+        margin:0;
+        padding:0;
+    }
+    .index_title {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        color: orangered;
+        font-size: xx-large;
+        display: flex;
+        justify-content: space-around;
+    }
+    .title {
+        margin-top: 100px;
+        font-size: xx-large;
+        text-align: center;
+    }
+    .title div {
+        margin: auto;
+        width: 50%;
+    }
+    .cards {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .cards .card {
+        padding: 1rem;
+        width: 20%;
+        height: 100%;
+        border: 1px solid orangered;
+        border-radius: 10%;
+        box-shadow: 1px 1px 10px black;
+    }
+    .cards .card .text {
+        color: orangered;
+        text-align: center;
+    }
+    .cards .card .headding {
+        margin-left: 2rem;
+        color: orangered;
+        padding: 0;
+    }
+    .cards .card .button {
+        text-align: right;
+        margin-top: 10vh;
+        color: orangered;            
+    }
+    button {
+        cursor: pointer;
+        font-weight: 400;
+        border: none;
+        background-color: orangered;
+        color: white;
+        text-align: center;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        box-shadow: 0.1px 0.1px 3px black;
+        display: flex;
+    }
+    div button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    div a{
+        color: orangered;
+        text-decoration: none;
+    }
+
+    .message{
+        padding: 1rem;
+        width: 20%;
+        height: 30%;
+        color: orangered;
+        border: 1px solid orangered;
+        border-radius: 10%;
+        box-shadow: 1px 1px 10px black;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+    }
+    .blur {
+        filter: blur(10px);
+        margin: 0;
+        padding: 0;
+    }
+    input {
+        border: 1px solid rgb(255, 116, 73);
+        /* border-top-left-radius: 5%; */
+        box-shadow: 2px 2px 4px grey;
+        padding: 1px 2px;
+    }
